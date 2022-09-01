@@ -1,0 +1,132 @@
+body {
+  background-image: url('../images/fondo.jpg');
+  font-family: Arial;
+}
+
+.rock-style {
+  width: 58px;
+  height: 55px;
+  position: fixed;
+  left: 65%;
+  top: 79%;
+  cursor: pointer;
+}
+
+.lizard-style {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  left: 22%;
+  top: 77%;
+  cursor: pointer;
+}
+
+.paper-style {
+  width: 53px;
+  height: 65px;
+  position: fixed;
+  left: 79%;
+  top: 37%;
+  cursor: pointer;
+}
+
+.spock-style {
+  width: 54px;
+  height: 61px;
+  position: fixed;
+  left: 11%;
+  top: 37%;
+  cursor: pointer;
+}
+
+.scissors-style {
+  width: 60px;
+  height: 62px;
+  position: fixed;
+  left: 43%;
+  top: 10%;
+  cursor: pointer;
+}
+
+.scissors-style:hover {
+  opacity: 50%;
+}
+
+.rock-style:hover {
+  opacity: 50%;
+}
+
+.lizard-style:hover {
+  opacity: 50%;
+}
+
+.paper-style:hover {
+  opacity: 50%;
+}
+
+.spock-style:hover {
+  opacity: 50%;
+}
+
+.div-style {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.div-logo {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  height: 120px;
+}
+
+.logo-bonus {
+  width: 150px;
+  height: 130px;
+}
+
+.div-score {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 20%;
+  width: 150px;
+  text-align: center;
+}
+
+.div-state {
+  position: absolute;
+  left: 70%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  height: 120px;
+}
+
+.state-text {
+  font-size: 30px;
+  color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.score-title {
+  font-size: 30px;
+  color: #5ea1f9;
+}
+
+.score-value {
+  font-size: 40px;
+}
+
